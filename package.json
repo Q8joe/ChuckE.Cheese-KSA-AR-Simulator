@@ -18,5 +18,18 @@
     "@vitejs/plugin-react": "^4.2.0",
     "gh-pages": "^6.0.0",
     "vite": "^5.3.0"
-  }
+  }{
+  "name": "cec-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://Q8joe.github.io/ChuckE.Cheese-KSA-AR-Simulator",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  ...
 }
